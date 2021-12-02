@@ -16,8 +16,8 @@ This application is a CMS-style blog site similar to a Wordpress site. Developer
 - [License](#Licensing)
 
 ## URLs
-- [GitHub Repo URL](#)
-- [Heroku App](#)
+- [GitHub Repo URL](https://github.com/candracodes/tech-blog)
+- [Heroku App](https://candra-tech-blog.herokuapp.com/)
 - [Full Acceptance Criteria](./assets/README.md)
 
 ## Usage
