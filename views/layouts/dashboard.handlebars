@@ -1,0 +1,107 @@
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Candra's Tech Blog</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/album/"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand navbar-dark bg-dark"
+      aria-label="Second navbar example"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Candra's Tech Blog</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample02"
+          aria-controls="navbarsExample02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+          <ul class="navbar-nav me-auto">
+            <li class="li-inline nav-item"><a
+                class="nav-link active"
+                href="/"
+              >Home</a></li>
+            <li class="li-inline nav-item"><a
+                class="nav-link"
+                href="/dashboard"
+              >My Posts</a></li>
+            <li class="li-inline nav-item"><a
+                class="nav-link"
+                href="/login"
+              >Login</a></li>
+            <li class="li-inline nav-item"><a
+                class="nav-link"
+                href="#"
+                id="logout-link"
+              >Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+
+      <!-- Introduction -->
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Enjoy the articles</h1>
+            {{{body}}}
+            <br>
+            <a href="/dashboard/new">➕ New Post</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <small class="mb-1">Made with 💗 by Candra Fried | 2021</small>
+      </div>
+    </footer>
+
+    <!-- BOOTRAP JAVASCRIPT -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <!-- CUSTOM JAVASCRIPT -->
+  <script src="/javascript/logout.js"></script>
+  <script src="/javascript/edit.js"></script>
+  <script src="/javascript/delete.js"></script>
+  </body>
+
+  
+
+</html>

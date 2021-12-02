@@ -21,7 +21,8 @@ This application is a CMS-style blog site similar to a Wordpress site. Developer
 - [Full Acceptance Criteria](./assets/README.md)
 
 ## Usage
-- TBD
+- This application can be viewed publicly from my Heroku hosted link, or... 
+- To run the app in the command line, login to MySQL and source the db... exit... followed by `npm run dev` and view the application from your browser via `http://localhost:3001`
 
 ## User-Story
 
